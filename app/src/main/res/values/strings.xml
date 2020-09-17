@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Projeto Aedes</string>
+
+    <string-array name="dor_cabec">
+        <item>Selecione uma opção...</item>
+        <item>Intenso</item>
+        <item>Moderado</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+
+    <string-array name="dor_artic">
+        <item>Selecione uma opção...</item>
+        <item>Leve</item>
+        <item>Intenso</item>
+        <item>Moderado</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+
+    <string-array name="febre">
+        <item>Selecione uma opção...</item>
+        <item>Baixa</item>
+        <item>Alta</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+
+    <string-array name="dor_musc">
+        <item>Selecione uma opção...</item>
+        <item>Intenso</item>
+        <item>Moderado</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+
+    <string-array name="coceira">
+        <item>Selecione uma opção...</item>
+        <item>Leve</item>
+        <item>Intenso</item>
+        <item>Moderado</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+
+    <string-array name="inc_art">
+        <item>Selecione uma opção...</item>
+        <item>Leve</item>
+        <item>Intenso</item>
+        <item>Moderado</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+
+    <string-array name="manchas">
+        <item>Momento da manifestação(em dias)...</item>
+        <item>1º ou 2º dia de sintomas</item>
+        <item>2º ou 5º dia de sintomas</item>
+        <item>4º dia de sintomas</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+
+    <string-array name="conjuntivite">
+        <item>Selecione uma opção...</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string-array name="manifest_hemorrag">
+        <item>Selecione uma opção...</item>
+        <item>Leve</item>
+        <item>Intenso</item>
+        <item>Moderado</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+</resources>

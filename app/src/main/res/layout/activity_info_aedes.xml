@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_principal"
+    tools:context="com.alhotmail.tiago_mont.projeto.InfoAedesActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Informações sobre o aplicativo"
+        android:textColor="#3f51b5"
+        android:textStyle="bold"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#3F51B5"
+        android:text="   O aplicativo possui o intuito de informar pessoas sobre as doenças transmitidas pelo mosquito Aedes Aegypti que simula um pré-diagnóstico baseado em sintomas característicos da Dengue, Zica e Chikungunya.
+         O simulador teve como referência os diagnósticos informados no site Combate Aedes (http://combateaedes.saude.gov.br/) que está realizando apoio no combate ao mosquito."
+        android:id="@+id/textView14"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3F51B5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Utilizando o Simulador:  Para gerar resultados no aplicativo, basta identificar a intensidade de cada sintoma e clicar no botão &quot;Resultado&quot;"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#3F51B5"
+        android:text="OBSERVAÇÃO:   O Projeto Aedes não substitui diagnósticos médicos, caso você apresente sintomas semelhante citados no simulador, procure imediatamente uma unidade de saúde mais proxima de sua casa."
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentEnd="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Simulador"
+        android:background="@drawable/styles_edit_text"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:id="@+id/buttonSimu"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Clique no botão abaixo para utilizar o simulador "
+        android:textColor="#3F51B5"
+        android:id="@+id/textView19"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
